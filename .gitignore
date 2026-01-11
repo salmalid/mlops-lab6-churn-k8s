@@ -1,0 +1,19 @@
+# Python venv
+venv_mlops/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# DVC storage
+dvc_storage/
+
+# Processed/intermediate data
+data/processed.csv
+
+# OS/IDE files
+*.DS_Store
