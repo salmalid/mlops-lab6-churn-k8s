@@ -8,6 +8,17 @@ Ce lab démontre le déploiement d'une application MLOps complète sur Kubernete
 - Volumes persistants
 - NetworkPolicy
 
+### Image Docker
+
+L'application est conteneurisée avec Docker. Pour construire l'image :
+
+```bash
+docker build -t churn-api:v1.0.0 .
+```
+
+> **NB** : Une image pré-construite (`churn-api_v1.tar`) est disponible pour le lab (1.6GB).
+>  L'image doit être reconstruite ou chargée dans Minikube.
+
 
 ## Étape 1 : Préparer l'environnement Kubernetes
 <img width="921" height="290" alt="etape 1" src="https://github.com/user-attachments/assets/085d9b5b-2186-4410-8dd6-24aa072840a9" />
