@@ -92,9 +92,11 @@ Sécuriser le réseau en limitant les communications entre les pods.
 Valider le déploiement complet et tester l'API en production.
 
 health : 
+
 <img width="717" height="677" alt="etape 14 - health" src="https://github.com/user-attachments/assets/043a2a49-d896-4aa4-9c50-d3e663b0dd2c" />
 
 predict : 
+
 <img width="775" height="838" alt="etape 14 - predict" src="https://github.com/user-attachments/assets/66580df4-a9e3-4a86-9d4e-34b5d14f36c6" />
 
 finalement : 
@@ -121,5 +123,7 @@ finalement :
 ## Auteur
 
 **Salma Lidame**  
+
 AI Engineer - ENSA El Jadida
+
 Cours : MLOps
