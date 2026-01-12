@@ -1,19 +1,41 @@
-# Python venv
+# Python environment
 venv_mlops/
-
-# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
 
 # Logs
 logs/
 *.log
 
-# DVC storage
-dvc_storage/
+# Models (tracked by DVC)
+models/
 
-# Processed/intermediate data
+# Data files (tracked by DVC)
+data/raw.csv
 data/processed.csv
 
-# OS/IDE files
-*.DS_Store
+# DVC cache
+.dvc/cache/
+dvc_storage/
+
+# Docker artifacts
+*.tar
+churn-api_v1.tar
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
